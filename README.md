@@ -29,19 +29,9 @@ Get your key from: https://console.groq.com/keys
 venv\Scripts\python.exe app.py
 ```
 
-### Streamlit app
-```bash
-venv\Scripts\streamlit.exe run app.py
+
 ```
-
-## Tools Available
-
-| Tool | Description | Example Query |
-|------|-------------|---------------|
-| `get_current_time` | Returns current date and time | "What time is it?" |
-| `tell_a_joke` | Returns a random joke | "Tell me a joke" |
-| `calculate` | Evaluates math expressions | "What is 25 * 4?" |
-| `get_weather` | Mock weather report | "Weather in London?" |
+|
 
 ## Project Structure
 
@@ -57,4 +47,4 @@ phidata/
 - Groq LLM (llama-3.3-70b-versatile)
 - Custom tools (time, joke, calculator, weather)
 - Conversation memory
-- Streamlit chat UI
+
